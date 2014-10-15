@@ -1,0 +1,152 @@
+
+
+/* #FED82E is the precide shade of yellow we'll be using. */
+
+/* UNIVERSAL CSS */
+
+/*Importing OPEN SANS, the font we're using */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800);
+
+
+body {
+	font-family: Open Sans;
+	margin: 0px;
+}
+
+div {
+	display: block;
+}
+
+#nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	background: #FED82E;
+	padding: 10px;
+	border-bottom: 1px #000 solid;
+}
+
+#nav a:link, #nav a:visited {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 10pt;
+	font-weight: 800;
+	margin: 15px;
+	color: #000;
+}
+
+#nav a:hover {
+	border-top: 2px #000 solid;
+}
+
+/* large headers */
+h1 {
+	background-color: #FED82E;
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-weight: 800; /* Make sure to use the number and not just bold, bold for Open Sans is only 700 */
+	font-size: 36pt;
+	display: inline-block;
+	margin-bottom: -10px;
+}
+
+/*smaller headers */
+
+h2 {
+	background-color: #FED82E;
+	padding: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 24pt;
+	display: inline-block;
+	margin-bottom: -8px;
+}
+
+/* sub headers */
+
+h3 {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14pt;
+	margin: 10px;
+	display: inline-block;
+
+}
+
+#content {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11pt;
+	line-height: 18pt;
+	font-weight: 400;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #666;
+}
+
+a:hover {
+	color: #000;
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 9pt;
+}
+
+
+/* INDEX SPECIFIC */
+
+#landing-container {
+	background: url('../img/mazerunner.jpg');
+	width: 100%;
+	height: 100%;
+}
+
+#landing-overlay {
+	background-color: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+}
+
+#logo-container {
+	position: absolute;
+	top: 100%;
+	right: 0%;
+	margin-top: -200px;
+	margin-right: 50px; }
+
+#logo {
+	background-color: #FED82E;
+	display: inline-block;;
+	color: #000;
+	font-weight: 800;
+	font-size: 96pt;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#tagline {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12pt;
+	line-height: 20pt;
+	display: inline-block;
+	color: #FED82E;
+	text-align: right;
+	letter-spacing: 3px;
+}
+
