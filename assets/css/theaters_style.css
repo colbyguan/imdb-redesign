@@ -1,0 +1,62 @@
+#theaters-content {
+    max-width: 960px;
+    margin: 60px auto;
+    font-weight: 400;
+}
+
+#page-title {
+	background-color: #FED82E;
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-weight: 800; /* Make sure to use the number and not just bold, bold for Open Sans is only 700 */
+	font-size: 36pt;
+	display: inline-block;
+	margin-bottom: -10px;
+}
+
+div#page-title-container {
+    max-width: 349px;
+}
+
+div#page-subtitle {
+    text-align: right;
+    margin-top: 12px;
+    font-style: italic;
+}
+
+.movie-image-container {
+    width: 270px;
+    float: left;
+}
+
+img.movie-image {
+    width: 100%;
+}
+
+.movie-title {
+	font-weight: 700;
+	font-size: 24pt;
+	margin: 18px;
+	display: inline-block;
+
+}
+
+.movie-info {
+    position: relative;
+    left: 18px;
+}
+
+.button-link {
+	background-color: #FED82E;
+	padding: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 16pt;
+	display: inline-block;
+	margin-right: 12px;
+	margin-bottom: -8px;
+}
