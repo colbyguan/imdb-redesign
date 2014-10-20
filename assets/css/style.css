@@ -66,6 +66,7 @@ h2 {
 	font-size: 24pt;
 	display: inline-block;
 	margin-bottom: -8px;
+	line-height: 30px;
 }
 
 /* sub headers */
@@ -80,7 +81,7 @@ h3 {
 }
 
 #content {
-	max-width: 960px;
+	max-width: 1060px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 11pt;
