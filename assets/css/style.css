@@ -8,10 +8,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800);
 
 
-body {
+html, body {
 	font-family: Open Sans;
 	margin: 0px;
 	background: #333;
+	-webkit-backface-visibility: hidden;
 }
 
 div {
@@ -109,50 +110,64 @@ footer {
 	color: #AAA;
 }
 
+/*  FOR THE SEARCH POPUP */
 
-/* INDEX SPECIFIC */
-
-#landing-container {
-	background: url('../img/mazerunner.jpg');
-	width: 100%;
-	height: 100%;
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 25px;
+  width: auto;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#landing-overlay {
-	background-color: #000;
-	opacity: 0.5;
-	width: 100%;
-	height: 100%;
+.mfp-move-from-top {
+  /* start state */
+  /* animate in */
+  /* animate out */
+}
+.mfp-move-from-top .mfp-content {
+  vertical-align: top;
+}
+.mfp-move-from-top .mfp-with-anim {
+  opacity: 0;
+  transition: all 0.2s;
+  transform: translateY(-100px);
+}
+.mfp-move-from-top.mfp-bg {
+  opacity: 0;
+  transition: all 0.2s;
+}
+.mfp-move-from-top.mfp-ready .mfp-with-anim {
+  opacity: 1;
+  transform: translateY(0);
+}
+.mfp-move-from-top.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.mfp-move-from-top.mfp-removing .mfp-with-anim {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+.mfp-move-from-top.mfp-removing.mfp-bg {
+  opacity: 0;
 }
 
-#logo-container {
-	position: absolute;
-	top: 100%;
-	right: 0%;
-	margin-top: -200px;
-	margin-right: 50px;
+/* For the actual search */
+
+form {
+	width: 500px;
+	text-align: center;
 }
 
-#logo {
-	background-color: #FED82E;
-	display: inline-block;;
-	color: #000;
-	font-weight: 800;
-	font-size: 96pt;
-	padding-left: 30px;
-	padding-right: 30px;
+.textfield {
+	width: 500px;
+	height: 50px;
 }
 
-#tagline {
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 12pt;
-	line-height: 20pt;
-	display: inline-block;
-	color: #FED82E;
-	text-align: right;
-	letter-spacing: 3px;
-}
+
+/* BORDER */
 
 #content-gradient-divider {
 	height: 64px;
