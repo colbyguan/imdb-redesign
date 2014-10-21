@@ -81,7 +81,7 @@ img.movie-image {
 }
 
 div#theaters-content-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
     background: white;
     box-shadow: inset 0px 0px 20px 5px rgba(100,100,100,0.5);

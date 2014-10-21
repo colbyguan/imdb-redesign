@@ -120,7 +120,7 @@ footer {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  box-shadow: inset 0px 0px 20px 5px rgba(75,75,75,0.75);
+  box-shadow: inset 0px 0px 20px 5px rgba(75,75,75,0.25);
 }
 
 .mfp-move-from-top {

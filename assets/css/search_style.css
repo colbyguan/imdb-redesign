@@ -3,7 +3,7 @@ body {
 }
 
 #search-content {
-    width: 1320px;
+    max-width: 1320px;
     margin: 0px auto;
     margin-top: 72px;
     background: white;
