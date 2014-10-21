@@ -27,3 +27,14 @@ h4 {
 .news {
 	padding: 10px;
 }
+
+div#news-container {
+    width: 1160px;
+    background: white;
+    margin: 0px auto;
+    box-shadow: inset 0px 0px 20px 5px rgba(75,75,75,0.75);
+}
+
+.news-spacer {
+    height: 60px;
+}
