@@ -182,7 +182,7 @@ form {
 
 div#content-container {
     margin: 0px auto;
-    width: 1300px;
+    max-width: 1300px;
     background: white;
     box-shadow: inset 0px 0px 20px 5px rgba(100,100,100,0.5);
     height: 1286px;
