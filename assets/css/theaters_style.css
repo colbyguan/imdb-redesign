@@ -81,14 +81,14 @@ img.movie-image {
 }
 
 div#theaters-content-container {
-    width: 1060px;
+    width: 1200px;
     margin: 0px auto;
     background: white;
-    box-shadow: inset 0px 0px 20px 5px rgba(75,75,75,0.75);
+    box-shadow: inset 0px 0px 20px 5px rgba(100,100,100,0.5);
 }
 
 #theaters-divider {
-	height: 32px;
+	height: 54px;
 }
 
 #theaters-bottom {
