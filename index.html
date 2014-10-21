@@ -3,6 +3,9 @@
 	<title>IMDb redesign: group 26</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/index_style.css" />
+	 <link rel='stylesheet prefetch' href='http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'>
+
+
 
 </head>
 <body>
@@ -108,13 +111,30 @@
 	</div>
 
 
-	<!-- NAV AND FOOTER -->
+	<!-- NAV, SEARCH AND FOOTER -->
 	<div id = "nav">
-		<a href = "#">search</a>
-		<a href = '#'>movies</a>
+		<span id = "inline-popups" ><a href = "#search" data-effect="mfp-move-from-top">search</a></span>
+		<a href = 'movies-in-theaters.html'>movies</a>
 		<a href = '#'>tv shows</a>
-		<a href = '#'>news</a>
+		<a href = 'news.html'>news</a>
 	</div>
+
+	<!-- Popup itself -->
+	<div id="search" class="white-popup mfp-with-anim mfp-hide">
+		<h2>Search IMDb</h2>
+		<br />
+		<br /> 
+		<center><form>
+            <input type="text" class = "textfield" placeholder="Movies, TV, Actors, News..." required>
+            <br /> <a href = "search-results.html"> Go! </a>
+		</form></center>
+	</div>
+
+  	<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+  	<script src='http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js'></script>
+
+  	<script src="assets/js/index.js"></script>
+
 	<footer>
 		Made by Andrew, Angira & Colby for the Web Design Decal, Fall 2014. 
 	</footer>
