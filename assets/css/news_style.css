@@ -14,6 +14,7 @@ h4 {
 .img-float {
 	float: left;
 	margin: 15px;
+	margin-top: 0px;
 }
 
 .headline {
