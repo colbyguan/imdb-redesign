@@ -1,0 +1,80 @@
+#search-content {
+    max-width: 1080px;
+    margin: 60px auto;
+    font-weight: 400;
+}
+
+.category-title {
+	background-color: #FED82E;
+	padding: 4px 12px;
+	text-transform: uppercase;
+	font-weight: 800; /* Make sure to use the number and not just bold, bold for Open Sans is only 700 */
+	font-size: 36pt;
+	display: inline-block;
+	margin: 12px 0px;
+}
+
+.result-container {
+    display: inline-block;
+    width: calc(100% / 6);
+    padding: 24px 16px;
+    background: #E0E0E0;
+    margin: 0px -2px;
+}
+
+.result-container2 {
+    display: inline-block;
+    width: calc(100% / 6);
+    padding: 24px 16px;
+    background: #EFEFEF;
+    margin: 0px -2px;
+}
+
+.result-image-container {
+    height: 240px;
+}
+
+img.result-image {
+    height: 100%;
+}
+
+.result-title {
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+.result-subtitle {
+    font-style: italic;
+    font-size: 9pt;
+}
+
+.result-text {
+    font-size: 8pt;
+}
+
+.category-container {
+    margin: 12px 0px;
+}
+
+div#search-input {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16pt;
+}
+
+.more-results-link {
+	background-color: #FED82E;
+	padding: 4px 12px;
+	font-weight: 800; /* Make sure to use the number and not just bold, bold for Open Sans is only 700 */
+	font-size: 14pt;
+    text-align: right;
+	margin-right: auto;
+	position: absolute;
+	right: 250px;
+	margin-top: 12px;
+}
+
+.category-spacer {
+    height: 42px;
+}
