@@ -1,0 +1,29 @@
+h4 {
+	font-weight: normal;
+	font-size: 10pt;
+	margin-bottom: 5 px;
+	line-height: 12pt;
+	margin-left: 10px;
+}
+
+.newsitem {
+	margin-top: 20px;
+
+}
+
+.img-float {
+	float: left;
+	margin: 15px;
+}
+
+.headline {
+	width: 200px;
+	height: auto;
+	float: left;
+	background-color: #FED82E;
+	padding: 10px;
+}
+
+.news {
+	padding: 10px;
+}
